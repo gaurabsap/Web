@@ -1,9 +1,7 @@
-import time
+
 import os
-# import subprocess
 
 
-# file_location = str(input("Enter your file full location \n"));
 current_location = os.getcwd()
 
 
@@ -49,16 +47,3 @@ print(current_location)
 print(os.system(f'code {current_location}'))
 # print("Opening vs code")
 
-
-# else:
-#     file4 = open(f"{file_location}\index.html", "w")
-#     file4.write(html)
-#     file4.close()
-
-#     file5 = open(f"{file_location}\style.css", "w")
-#     file5.write(css)
-#     file5.close()
-
-#     file6 = open(f"{file_location}\app.js", "w")
-#     file6.close()
-#     os.system(f'code {file_location}')
